@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>App</h1>
       {JSON.stringify(state.value)}
       <button onMouseOver={setHouver} onMouseOut={setNotHouver}>Hover</button>
     </div>
