@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMachine } from '@xstate/react';
-import { todoAppMachine } from './machines/todoAppMachine';
+import { todoAppMachine } from '../machines/todoAppMachine';
 
 function Todo() {
   const [state, send] = useMachine(todoAppMachine);
