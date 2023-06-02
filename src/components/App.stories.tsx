@@ -5,7 +5,6 @@ import App from "./App";
 const meta: Meta<typeof App> = {
   title: "App",
   component: App,
-  tags: ["autodocs"],
   args: {},
 };
 

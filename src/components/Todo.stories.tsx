@@ -5,7 +5,6 @@ import Todo from "./Todo";
 const meta: Meta<typeof Todo> = {
   title: "Todo",
   component: Todo,
-  tags: ["autodocs"],
   args: {},
 };
 
